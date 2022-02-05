@@ -40,5 +40,5 @@ function returnFirstCharacter(string) {
 function returnACharacter(string, index) {
     return string[index];
   }
-  var character = returnACharacter('tea', 1);
+  var character = returnACharacter('tea leaves', 6);
   console.log('character:', character);
