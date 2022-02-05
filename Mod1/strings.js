@@ -62,3 +62,7 @@ var something = "Head Chef";
 // Booleans
 var hasBeenDelivered = true;
 var blah = false;
+
+// Function parameters are the names listed in the function definition.
+
+// Function arguments are the real values passed to (and received by) the function.
