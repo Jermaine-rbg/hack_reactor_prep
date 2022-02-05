@@ -4,4 +4,6 @@ function returnOne() {
 }
 
 var result = returnOne;
-console.log(result);
+//console.log(result);
+
+console.log("Hello World");
