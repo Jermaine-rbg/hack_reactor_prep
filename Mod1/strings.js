@@ -42,3 +42,23 @@ function returnACharacter(string, index) {
   }
   var character = returnACharacter('tea leaves', 6);
   console.log('character:', character);
+
+  // A variable is a named location for storing a value
+
+  // It is important to consider that this value we are storing will have a "type"
+
+  // The name we choose can help, or it can hurt, our understanding of the program
+
+  // Let us consider a few examples for each of the previously mentioned data types:
+
+// Numbers
+var count = 9;
+var whatever = 6398;
+
+// Strings
+var name = "Charlemagne";
+var something = "Head Chef";
+
+// Booleans
+var hasBeenDelivered = true;
+var blah = false;
