@@ -14,3 +14,8 @@ var firstCharacter = testString[0]; // accesses the first character: 'w'
 var thirdCharacter = testString[2]; // accesses the third character: 'r'
 console.log(firstCharacter); // will log 'w'
 console.log(thirdCharacter); // will log 'r'
+
+// A string does not need to have anything in it to still be considered a string
+
+var emptyString = "";
+console.log(emptyString);
