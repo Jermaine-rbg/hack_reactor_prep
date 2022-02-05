@@ -14,7 +14,7 @@ console.log(nameForMe);
 
 // this function has one simple operation: it returns 1
 function returnOne() {
-  return 1;
+  return 60;
 }
 
 // this part is similar to what happens when you click 'Run Tests'
