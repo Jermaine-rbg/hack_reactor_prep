@@ -32,3 +32,33 @@ var stringObj = {
     futurePosition: 'doggo'
 }
 
+// We need to know the name of the object, and the name of the key
+
+// Two ways to do same thing:
+
+// Can use "dot notation"
+
+// Can use "bracket notation"
+
+var petDog = {
+    name: 'Daisy',
+    currentTitle: 'pupper',
+    futurePosition: 'doggo'
+  };
+  
+  // to access a value within an object
+  var valueOfName = petDog.currentTitle;
+  console.log('accessed using dot notation:', valueOfName);
+
+  // Or 
+  var petDog = {
+    name: 'Daisy',
+    currentTitle: 'pupper',
+    futurePosition: 'doggo'
+  };
+  
+  var valueOfName = petDog['name'];
+  console.log('accessed using bracket notation:', valueOfName);
+  
+
+  
