@@ -12,12 +12,12 @@ console.log(nameForMe);
 
 //Functions are the prime mechanism with which you will be manipulating data
 
-// this function has one simple operation: it returns 1
+// this function has one simple operation: it returns 60
 function returnOne() {
   return 60;
 }
 
 // this part is similar to what happens when you click 'Run Tests'
 var result = returnOne();
-console.log(result); // should log 1 to the console
+console.log(result); // should log 60 to the console
 
