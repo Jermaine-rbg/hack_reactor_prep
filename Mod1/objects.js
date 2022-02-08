@@ -61,4 +61,35 @@ var petDog = {
   console.log('accessed using bracket notation:', valueOfName);
   
 
-  
+  // One very useful tool in programming is the typeof operator
+
+  // Its functionality is rather simple, and when applied to a value, it will tell you the type of value in question
+
+  // Run the following code in a console to get a sense of how this works:
+
+  console.log(typeof undefined); // we have left off the label for this message, but will include it for the rest
+  console.log('type of true:', typeof true);
+  console.log('type of false:', typeof false);
+  console.log('type of 9', typeof 9);
+  console.log('type of 4.0:', typeof 4.0);
+
+
+  // When dealing with arrays, it is important to remember that in JavaScript, arrays are "list like objects"
+
+  // Let's look at how to tell the difference between arrays and objects, using Array.isArray():
+
+  console.log('Is an array?:', Array.isArray([3, 4, 5]));
+  console.log('Is an array?:', Array.isArray({a: 1})); 
+
+  //first, we will declare a function that takes an object parameter and returns it
+function returnObject(object) {
+    return object;
+  }
+
+  var user = {
+    id: 4,
+    name: 'Robert Solomon',
+    occupation: 'Mathematician'
+  }; // we are defining a variable that we will pass to our function as an argument
+  var resultObject = returnObject(user); // now, we call the function with 'user' as our argument
+  console.log('resultObject:', resultObject);
