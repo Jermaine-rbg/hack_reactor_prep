@@ -33,3 +33,31 @@ function returnTrue() {
   // returns true
 }
 
+// Not ( ! )
+
+var sense = true;
+// to describe nonsense
+var nonsense = !sense;
+console.log('nonsense:', nonsense);
+
+var notNonsense = !nonsense;
+console.log('not nonsense:', notNonsense);
+
+// return !boolean
+
+// Or ( || )
+
+// There are four cases to examine when comparing two boolean values:
+
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+
+// We can demonstrate this same idea by creating a variable, and assigning it to the result of comparing the two variables using the || operator
+
+var haveACar = true;
+var bussesAreRunning = true;
+
+var willAttendEvent = haveACar || bussesAreRunning;
+console.log("I will attend the event:", willAttendEvent);
