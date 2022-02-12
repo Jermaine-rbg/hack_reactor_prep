@@ -26,6 +26,8 @@ var numbersObj = {
 
 // finally, let us look at an object with string values
 
+// Spaces and line breaks are not important. A declaration can span multiple lines:
+
 var stringObj = {
     name: 'Daisy',
     currentTitle: 'pupper',
@@ -67,12 +69,15 @@ var petDog = {
 
   // Run the following code in a console to get a sense of how this works:
 
+  // Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.
+
   console.log(typeof undefined); // we have left off the label for this message, but will include it for the rest
   console.log('type of true:', typeof true);
   console.log('type of false:', typeof false);
   console.log('type of 9', typeof 9);
   console.log('type of 4.0:', typeof 4.0);
 
+  // An array is a special variable, which can hold more than one value:
 
   // When dealing with arrays, it is important to remember that in JavaScript, arrays are "list like objects"
 
@@ -93,3 +98,18 @@ function returnObject(object) {
   }; // we are defining a variable that we will pass to our function as an argument
   var resultObject = returnObject(user); // now, we call the function with 'user' as our argument
   console.log('resultObject:', resultObject);
+
+  // next we will declare a function that takes in an object, and a key, and returns the value located at the inputted key
+function returnAValue(obj, key) {
+  return obj[key];
+}
+
+var computer = {
+  name: "MacBook Pro",
+  version: "10.14.6",
+  processor: "2 GHz Intel Core i7",
+  memory_gb: 8
+};
+var nameOfKey = "version";
+var valueAtKey = returnAValue(computer, nameOfKey);
+console.log('valueAtKey:', valueAtKey);
