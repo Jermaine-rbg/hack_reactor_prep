@@ -21,3 +21,24 @@
 // When we call console.log() we will typically pass it an argument, or sometimes several arguments, where each argument is separated by commas
 
 // The commas are also operators
+
+// In a few cases of calling console.log, we said something like:
+
+console.log('some message:', typeof {a: 1});
+
+// To be sure, we are calling this function, console.log, with two arguments. The first is a string:
+
+// 'some message:'
+
+// and the second is an operator applied to an object:
+
+// This second argument is an example of calling a function with an expression as an argument. Before the function runs, the expression is "evaluated". typeof {a: 1} evaluates to "object", thus the resulting message when this code is run in the console. Let us keep this concept in mind as we proceed through the material.
+
+// Expressions assigned to a Variable
+
+// One thing we have already been doing, is assigning the result of an expression to a variable, using =; which is an assignment operator. Let us do so now:
+
+var typeOfOperand = typeof {a: 1};
+console.log('some message:', typeOfOperand);
+
+
