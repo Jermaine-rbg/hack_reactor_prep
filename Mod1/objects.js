@@ -113,3 +113,38 @@ var computer = {
 var nameOfKey = "version";
 var valueAtKey = returnAValue(computer, nameOfKey);
 console.log('valueAtKey:', valueAtKey);
+
+// we will now declare a function that takes no parameters, creates an object, and returns the newly created object
+function createAndReturnAnObject() {
+  var newObj = {a: 1, b: 2};
+  return newObj;
+}
+
+var resultObject = createAndReturnAnObject();
+console.log('resultObject:', resultObject);
+
+// let us write a function that returns the type of argument the function has been called with (assume the argument will be scalar - not a collection)
+function getType(param) {
+  return typeof param;
+}
+
+var numType = getType(56);
+console.log('numType:', numType);
+
+var stringType = getType('serial number');
+console.log('stringType:', stringType);
+
+var undefinedType = getType();
+console.log('undefinedType:', undefinedType); //think carefully about what is happening here
+
+// let us write a function that returns true if the argument is an Array, and returns false if it is not
+function determineIsAnArray(input) {
+  var isAnArray = Array.isArray(input);
+  return isAnArray;
+}
+
+var affirmative = determineIsAnArray([1, 2, 3]);
+console.log('affirmative:', affirmative);
+
+var negative = determineIsAnArray({a: 1});
+console.log('negative:', negative);
