@@ -72,3 +72,29 @@ function eitherAreTrue(bool_1, bool_2) {
   // return the result variable
   return result;
 }
+
+// We can also compare two boolean values and decide if BOTH of them are true:
+
+console.log(true && true); // will log true
+console.log(true && false); // will log false
+console.log(false && true); // will log false
+console.log(false && false); // will log false
+
+// We can demonstrate this same idea by creating a variable, and assigning it to the result of comparing the two variables using the && operator
+
+var friendCanGo = true;
+var iCanGo = true;
+
+var weWillAttend = friendCanGo && iCanGo;
+console.log("Both my friend and I will go:", weWillAttend);
+
+// We are going to complete a function that takes in two boolean parameters.
+// Your function should create a variable and assign it to the result of comparing the two input parameters using the && operator, then return that variable. 
+
+function bothAreTrue(bool_1, bool_2) {
+  // create a result variable
+  // assign it to bool_1 AND bool_2
+  var result = bool_1 && bool_2;
+  // return the result variable
+  return result;
+}
