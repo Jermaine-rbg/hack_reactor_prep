@@ -61,3 +61,14 @@ var bussesAreRunning = true;
 
 var willAttendEvent = haveACar || bussesAreRunning;
 console.log("I will attend the event:", willAttendEvent);
+
+// We are going to complete a function that takes in two boolean parameters. 
+// Your function should create a variable and assign it to the result of comparing the two input parameters using the || operator, then return that variable.
+
+function eitherAreTrue(bool_1, bool_2) {
+  // create a result variable
+  // assign it to bool_1 OR bool_2
+  var result = bool_1 || bool_2
+  // return the result variable
+  return result;
+}
