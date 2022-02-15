@@ -98,3 +98,14 @@ function bothAreTrue(bool_1, bool_2) {
   // return the result variable
   return result;
 }
+
+// We can have several scenarios where we compare more than two boolean values
+
+// Linking together combinations of boolean comparisons can give our programs complexity
+
+var storeIsOpen = true;
+var isHungry = true;
+var isThirsty = true;
+
+var willGoToStore = storeIsOpen && (isHungry || isThirsty);
+console.log(willGoToStore); // will log true
