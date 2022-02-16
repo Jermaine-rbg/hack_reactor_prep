@@ -25,3 +25,34 @@ console.log('totalFruit:', totalFruit);
 // var resultSum = getSum(4, 10);
 // console.log('should be 14:', resultSum);
 
+// Let us consider the case of wanting to multiply one number by another number
+
+// We can do so using the * operator:
+
+var product = 7 * 4;
+console.log('product:', product);
+
+// We can also do this with variables whose values are numbers:
+
+var numberOfStores = 7;
+var numberOfEmployeesPerStore = 4;
+var numberOfTotalEmployees = numberOfStores * numberOfEmployeesPerStore;
+console.log('numberOfTotalEmployees:', numberOfTotalEmployees);
+
+var resultProduct = 9 * 4;
+console.log('should be 36:', resultProduct);
+
+// Let us consider the case of wanting to divide one number by another number
+
+// We can do so using the / operator:
+
+var quotient = 24 / 6;
+console.log('quotient:', quotient);
+
+// We can also do this with variables whose values are numbers:
+
+// var slicesOfPizza = 24;
+var slicesOfPizza = 20; 
+var numberOfPeople = 6;
+var slicesPerPerson = slicesOfPizza / numberOfPeople;
+console.log('slicesPerPerson:', slicesPerPerson); // no worries, the slices are not that big
