@@ -179,5 +179,43 @@ currentQuotient /= divider;
 // currentQuotient = currentQuotient / divider
 console.log('currentQuotient:', currentQuotient);
 
+// Let us consider the case of wanting to get the absolute value of a number
 
+// We can do so using the Math.abs() method:
+
+var original = -295;
+console.log('absolute value applied:', Math.abs(original));
+
+// We can also do this with variables whose values are numbers:
+var position1 = 5;
+var position2 = 300;
+var difference = position1 - position2;
+var magnitudeDifference = Math.abs(difference)
+console.log('magnitudeDifference:', magnitudeDifference);
+
+// Let us consider the case of wanting to round a number either up or down
+
+// We can do so using the Math.ceil() (up), and the Math.floor() (down) methods:
+
+var original = 33.7;
+
+console.log('rounded up:', Math.ceil(original));
+console.log('rounded down:', Math.floor(original));
+
+// We can also do this with variables whose values are numbers:
+
+// var score = 89.4;
+var gradeFromATeacherWhoGetsIt = Math.ceil(score);
+var gradeFromAMonsterInTeachersClothes = Math.floor(score);
+
+console.log('gradeFromATeacherWhoGetsIt:', gradeFromATeacherWhoGetsIt);
+console.log('gradeFromAMonsterInTeachersClothes:', gradeFromAMonsterInTeachersClothes);
+
+function roundDown(num) {
+    // create a result variable
+    // assign it to input, rounded down
+    var result = Math.floor(num);
+    // return result
+    return result;
+  }
 
