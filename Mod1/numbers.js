@@ -52,7 +52,7 @@ console.log('quotient:', quotient);
 // We can also do this with variables whose values are numbers:
 
 // var slicesOfPizza = 24;
-var slicesOfPizza = 20; 
+var slicesOfPizza = 24; 
 var numberOfPeople = 6;
 var slicesPerPerson = slicesOfPizza / numberOfPeople;
 console.log('slicesPerPerson:', slicesPerPerson); // no worries, the slices are not that big
