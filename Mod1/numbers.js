@@ -56,3 +56,56 @@ var slicesOfPizza = 24;
 var numberOfPeople = 6;
 var slicesPerPerson = slicesOfPizza / numberOfPeople;
 console.log('slicesPerPerson:', slicesPerPerson); // no worries, the slices are not that big
+
+// Let us consider the case of wanting to raise one number to the power of another number
+
+// We can do so using the ** operator:
+
+var power = 2 ** 5;
+console.log('power:', power);
+
+// We can also do this with variables whose values are numbers:
+
+var choicesPerCategory = 2;
+var numberOfCategories = 5;
+var totalNumberOfChoices = choicesPerCategory ** numberOfCategories;
+console.log('totalNumberOfChoices:', totalNumberOfChoices);
+
+function getPower(num1, num2) {
+    // create a result variable,
+    // assign it to num1 raised to the num2 power
+    result = num1 ** num2;
+    // return the result variable
+    return result;
+  }
+
+  // Let us consider the case of wanting the remainder after dividing one number by another number
+
+  // We can do so using the % operator:
+
+  var remainder = 11 % 2;
+console.log('remainder:', remainder);
+
+// We can also do this with variables whose values are numbers:
+
+var numberOfSocks = 11;
+var numberOfSocksPerPerson = 2;
+var numberOfSocksRemaining = numberOfSocks % numberOfSocksPerPerson;
+console.log('numberOfSocksRemaining:', numberOfSocksRemaining);
+
+function getRemainder(num1, num2) {
+    // create a result variable,
+    // assign it to remainder after dividing num1 by num2
+    result = num1 % num2;
+    // return the result variable
+    return result;
+  }
+
+  // Let us consider the case of wanting to increment a variable's value
+
+  // We can do so using the += operator:
+
+var increment = 11;
+increment += 2;
+console.log('increment:', increment);
+
