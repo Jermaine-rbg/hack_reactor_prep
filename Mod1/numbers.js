@@ -109,3 +109,75 @@ var increment = 11;
 increment += 2;
 console.log('increment:', increment);
 
+// We can also do this with variables whose values are numbers:
+
+var totalUnitsOfCargo = 11;
+var additionalUnits = 2;
+totalUnitsOfCargo += additionalUnits;
+// totalUnitsOfCargo = totalUnitsOfCargo + additionalUnits
+console.log('totalUnitsOfCargo:', totalUnitsOfCargo);
+
+function increment(base, incrementer) {
+    // reassign base to result of incrementing base by incrementer
+    result = base += incrementer;
+    // return base
+    return base;
+  }
+
+  // Let us consider the case of wanting to decrement a variable's value
+
+  // We can do so using the -= operator:
+
+var decrement = 13;
+decrement -= 3;
+console.log('decrement:', decrement);
+
+// We can also do this with variables whose values are numbers:
+
+var totalUnitsAvailable = 13;
+var unitsSold = 3;
+totalUnitsAvailable -= unitsSold;
+// totalUnitsAvailable = totalUnitsAvailable - unitsSold
+console.log('totalUnitsAvailable:', totalUnitsAvailable);
+
+// Let us consider the case of wanting to multiply a variable's value by another, and reassign the first variable to the result of said operation
+
+// We can do so using the *= operator:
+
+var result = 10;
+result *= 4;
+console.log('result:', result);
+
+// We can also do this with variables whose values are numbers:
+
+var currentProduct = 10;
+var multiplier = 4;
+currentProduct *= multiplier;
+// currentProduct = currentProduct * multiplier
+console.log('currentProduct:', currentProduct);
+
+function applyTimesEquals(base, multiplier) {
+    // reassign base to result of multiplying base by multiplier
+    base *= multiplier;
+    // return base
+    return base;
+  }
+
+  // Let us consider the case of wanting to divide a variable's value by another, and reassign the first variable to the result of said operation
+
+  // We can do so using the /= operator:
+
+var result = 55;
+result /= 5;
+console.log('result:', result);
+
+// We can also do this with variables whose values are numbers:
+
+var currentQuotient = 55;
+var divider = 5;
+currentQuotient /= divider;
+// currentQuotient = currentQuotient / divider
+console.log('currentQuotient:', currentQuotient);
+
+
+
