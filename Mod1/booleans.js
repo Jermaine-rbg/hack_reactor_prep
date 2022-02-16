@@ -123,3 +123,33 @@ console.log('should be true:', outputTrue);
 
 var outputFalse = combination(false, true, true);
 console.log('should be false:', outputFalse);
+
+// Equal to ( === )
+// This operator allows us to compare two scalar values directly
+// Works with undefined, Booleans, Numbers, and Strings
+
+// In the case of undefined:
+var declared;
+var undefinedMatch = declared === undefined;
+console.log('undefinedMatch:',undefinedMatch);
+
+// In the case of Booleans:
+var isRaining = true;
+var weatherPredictedRain = true;
+
+var weathermanWasRight = isRaining === weatherPredictedRain;
+console.log('weathermanWasRight:', weathermanWasRight);
+
+// In the case of Numbers:
+var expectedCount = 10;
+var actualCount = 9;
+
+var expectationsMet = expectedCount === actualCount;
+console.log('expectationsMet:', expectationsMet);
+
+// In the case of Strings:
+var currentString = 'happiness';
+var nextString = 'happiness';
+
+var stringsMatch = currentString === nextString;
+console.log('stringsMatch:', stringsMatch);
