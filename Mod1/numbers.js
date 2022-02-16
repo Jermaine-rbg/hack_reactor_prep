@@ -252,3 +252,26 @@ var parsedUserRating = Number.parseFloat(userRatingString)
 console.log('parsedUserRating:', parsedUserRating);
 
 
+// Let us consider the case of wanting to generate a random number
+
+// We can do so using the Math.random() method
+// Math.random() will generate a number between 0 and 1
+// The number generated can be 0, but will not be 1
+
+// A little more work is required to get a random number between two specific values
+
+// generate a random number between 0 and 1
+console.log('random number between 0 and 1:', Math.random());
+
+// generate a random number between 1 and 10
+var randomBetween1And10 = Math.random() * (10 - 1) + 1;
+console.log('randomBetween1And10:', randomBetween1And10);
+
+// We can also do this with variables whose values are numbers:
+
+var min = 90;
+var max = 100;
+var randomBetweenMinAndMax = Math.random() * (max - min) + min;
+console.log("randomBetweenMinAndMax:", randomBetweenMinAndMax);
+
+
