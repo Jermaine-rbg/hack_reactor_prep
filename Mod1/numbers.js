@@ -219,3 +219,36 @@ function roundDown(num) {
     return result;
   }
 
+  function roundUp(num) {
+    // create a result variable
+    // assign it to input, rounded up
+    var result = Math.ceil(num);
+    // return result
+    return result;
+  }
+
+  // Let us consider the case of wanting to take a string version of a number, and get an actual number
+
+  // We will examine two cases, wanting to "parse" an integer, and:
+
+  // Wanting to parse a float (decimal)
+
+  // We can do so using the Number.parseInt(), and the Number.parseFloat() methods:
+
+  // var parsedInteger = Number.parseInt("49");
+console.log('parsedInteger:', parsedInteger);
+
+var parsedFloat = Number.parseFloat("29.45")
+console.log('parsedFloat:', parsedFloat);
+
+// We can also do this with variables whose values are string versions of numbers:
+
+var userIdString = "49";
+var parsedUserId = Number.parseInt(userIdString);
+console.log("parsedUserId:", parsedUserId);
+
+var userRatingString = "29.45";
+var parsedUserRating = Number.parseFloat(userRatingString)
+console.log('parsedUserRating:', parsedUserRating);
+
+
