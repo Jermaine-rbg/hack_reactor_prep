@@ -103,9 +103,23 @@ function bothAreTrue(bool_1, bool_2) {
 
 // Linking together combinations of boolean comparisons can give our programs complexity
 
-var storeIsOpen = true;
-var isHungry = true;
-var isThirsty = true;
+// var storeIsOpen = true;
+// var isHungry = true;
+// var isThirsty = true;
 
-var willGoToStore = storeIsOpen && (isHungry || isThirsty);
-console.log(willGoToStore); // will log true
+// var willGoToStore = storeIsOpen && (isHungry || isThirsty);
+// console.log(willGoToStore); // will log true
+
+function combination(bool_1, bool_2, bool_3) {
+  // create a result variable
+  // assign it to bool_1 AND either bool_2 OR bool_3
+  var result = bool_1 && (bool_2 || bool_3)
+  // return the result variable
+  return result;
+}
+
+var outputTrue = combination(true, true, false);
+console.log('should be true:', outputTrue);
+
+var outputFalse = combination(false, true, true);
+console.log('should be false:', outputFalse);
