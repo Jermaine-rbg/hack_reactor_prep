@@ -66,3 +66,44 @@ var blah = false;
 // Function parameters are the names listed in the function definition.
 
 // Function arguments are the real values passed to (and received by) the function.
+
+
+
+// string interpolation example
+var food = "pizza";
+var methodOfTransport = "the train";
+
+var sentence = "The best way to travel to get " + food + " is surely to take " + methodOfTransport;
+console.log("Resulting sentence:", sentence);
+
+// We are going to complete a function that takes in two parameters, both will be strings (activity, dayOfTheWeek), and returns a message based on the inputs. Your function should create a new variable, assign it to an expression which will interpolate the parameters into a message (described below), then return that variable. Below are examples of the code running, assuming that you will have completed the described function: interpolateAString.
+
+// var resultMessage1 = interpolateAString('hiking', 'Tuesday');
+// console.log("should log 'We will go hiking on Tuesday.':", resultMessage1);
+
+// var resultMessage2 = interpolateAString('dancing', 'Friday');
+// console.log("should log 'We will go dancing on Friday.':", resultMessage2);
+
+function interpolateAString(activity, dayOfTheWeek) {
+  // create a result variable
+  // assign it to an expression which interpolates the input parameters into the described message
+  var result = 'We will go ' + activity + 'on this ' + dayOfTheWeek;
+  // return the result variable
+  return result;
+}
+
+// We are going to complete a function that takes in one parameter, a string, and returns the input string's last character. Your function should determine the length of the input string minus 1, and assign it to a lastIndex variable. Your function should also create a lastCharacter variable and assign it to an expression which uses lastIndex to access the last character in the string, and return the lastCharacter variable. Below are examples of the code running, assuming that you will have completed the described function: getLastCharacter.
+
+// var resultLastCharacter1 = getLastCharacter('Banana');
+// console.log('should log "a":', resultLastCharacter1);
+
+// var resultLastCharacter2 = getLastCharacter('Macrofirm');
+// console.log('should log "m":', resultLastCharacter2);
+
+function getStringLength(string) {
+  // create a length variable
+  // assign it to the length of the string
+  var length = string.length;
+  // return the length variable
+  return length;
+}
