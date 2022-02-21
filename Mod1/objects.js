@@ -157,3 +157,4 @@ var stringsObj ={
 
 console.log(stringsObj["jobNow"]);
 // the brackets pull the key value from the function
+
