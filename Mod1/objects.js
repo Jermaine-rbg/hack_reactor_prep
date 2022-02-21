@@ -148,3 +148,11 @@ console.log('affirmative:', affirmative);
 
 var negative = determineIsAnArray({a: 1});
 console.log('negative:', negative);
+
+var stringsObj ={
+  name:"jermaine",
+  carreer: "software enginneer",
+  jobNow: "slave"
+}
+
+console.log(stringsObj);

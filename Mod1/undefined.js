@@ -14,3 +14,7 @@ function nothing() {
 
 var returnValue = nothing(); // this line "calls" the function and assigns the value returned to returnValue
 console.log(returnValue); // if you run this code in a console, you can see that returnValue is undefined
+
+function returnsNothing(){
+    
+}

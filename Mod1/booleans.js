@@ -2,8 +2,8 @@
 
 // Booleans can be true or false
 
-var hardWork = true;
-console.log(hardWork);
+var hardWorkPaysOff = true;
+console.log(hardWorkPaysOff);
 
 var noJob = false;
 console.log(noJob);
@@ -153,3 +153,7 @@ var nextString = 'happiness';
 
 var stringsMatch = currentString === nextString;
 console.log('stringsMatch:', stringsMatch);
+
+function returnTrue(){
+  return true;
+}
