@@ -158,3 +158,14 @@ var stringsObj ={
 console.log(stringsObj["jobNow"]);
 // the brackets pull the key value from the function
 
+function accessACharacter(string, index){
+  // create a result variable
+  // assign it to an expression that accesses the character within string at the index
+  var result = string[index];
+  // return the variable
+  console.log(result);
+}
+
+var addTogetherTwoStrings;
+var addTogetherTwoStrings = ["rich rollin ", 'six owe'];
+console.log(addTogetherTwoStrings);
