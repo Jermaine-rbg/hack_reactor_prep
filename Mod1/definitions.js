@@ -54,3 +54,10 @@
 
 // Any variable can be emptied, by setting the value to undefined. The type will also be undefined.
 
+// Objects can also have methods.
+
+// Methods are actions that can be performed on objects.
+
+// Methods are stored in properties as function definitions.
+
+// A method is a function stored as a property.
