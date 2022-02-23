@@ -176,3 +176,14 @@ console.log('last character', lastCharacter);
 
 var subString = "JavaScript".substring(3, 8);
 console.log('portion of the word up to three but not past 8: ', subString);
+
+
+// We are going to complete a function that takes in two parameters (string, subString), and returns the index of the string where the subString can be found. Your function should create an index variable and assign it to a call of the indexOf() method on the string, and passing subString as an argument, and return the index variable. 
+function applyIndexOf(string, subString) {
+  // create an index variable
+  // assign it to the index inside of string where subString can first be found
+  var index = string.indexOf(subString);
+  // return the index variable
+  return index;
+}
+
