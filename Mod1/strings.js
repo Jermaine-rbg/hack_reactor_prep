@@ -150,3 +150,11 @@ function interpolateAString(activity, dayOfTheWeek) {
 var name = "Alan Turing";
 var lengthOfName = name.length;
 console.log('lengthOfName version 2:', lengthOfName);
+
+// We are going to complete a function that takes in one parameter, a string, and returns the length of that string. Your function should create a variable and assign it to the length of the input string using the .length property, and return that variable.
+
+function getStringLength(string){
+  var length = string.length
+  length = string.length
+}
+console.log(string);
