@@ -107,3 +107,46 @@ function getStringLength(string) {
   // return the length variable
   return length;
 }
+
+// We are going to complete a function that takes in two parameters, both will be strings, and returns the two strings concatenated. Your function should create a new variable, assign it to an expression which will add together or concatenate the input strings, then return that variable. 
+
+function addTogetherTwoStrings(string1, string2) {
+  // create a result variable
+  // assign it to an expression which adds together string1 and string2
+  var result = string1 + string2;
+  // return the result variable
+  return result;
+  
+}
+// assigning a expression adding first and last names with a space in between
+function createFullName(firstName, lastName){
+  var fullName = firstName + " " + lastName;
+  return fullName;
+}
+
+// Let us consider the case in which we want to build a message around the values of a variable
+// This is called string interpolation
+// We can do this using the + operator (note -> there are newer ways to do this - research template literals):
+
+var food = "pizza";
+var methodOfTransport = "the train";
+
+var sentence = "The best way to travel to get " + food + " is surely to take " + methodOfTransport;
+console.log("Resulting sentence:", sentence);
+
+
+function interpolateAString(activity, dayOfTheWeek) {
+  // create a result variable
+  // assign it to an expression which interpolates the input parameters into the described messag
+  var result = 'We will go '+ activity +' on ' + dayOfTheWeek + '.';
+  // return the result variable
+  return result;
+}
+
+// Let us consider the case of wanting to get the length of a string
+// We can do so using the .length property (not a method, although vaguely similar in appearance):
+
+
+var name = "Alan Turing";
+var lengthOfName = name.length;
+console.log('lengthOfName version 2:', lengthOfName);
