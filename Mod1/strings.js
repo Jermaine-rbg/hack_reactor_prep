@@ -100,13 +100,13 @@ function interpolateAString(activity, dayOfTheWeek) {
 // var resultLastCharacter2 = getLastCharacter('Macrofirm');
 // console.log('should log "m":', resultLastCharacter2);
 
-function getStringLength(string) {
-  // create a length variable
-  // assign it to the length of the string
-  var length = string.length;
-  // return the length variable
-  return length;
-}
+// function getStringLength(string) {
+//   // create a length variable
+//   // assign it to the length of the string
+//   var length = string.length;
+//   // return the length variable
+//   return length;
+// }
 
 // We are going to complete a function that takes in two parameters, both will be strings, and returns the two strings concatenated. Your function should create a new variable, assign it to an expression which will add together or concatenate the input strings, then return that variable. 
 
@@ -147,14 +147,32 @@ function interpolateAString(activity, dayOfTheWeek) {
 // We can do so using the .length property (not a method, although vaguely similar in appearance):
 
 
-var name = "Alan Turing";
-var lengthOfName = name.length;
-console.log('lengthOfName version 2:', lengthOfName);
+// var name = "Alan Turing";
+// var lengthOfName = name.length;
+// console.log('lengthOfName version 2:', lengthOfName);
 
 // We are going to complete a function that takes in one parameter, a string, and returns the length of that string. Your function should create a variable and assign it to the length of the input string using the .length property, and return that variable.
 
-function getStringLength(string){
-  var length = string.length
-  length = string.length
-}
-console.log(string);
+// function getStringLength(string){
+//   // create a length variable
+//   // assign it to the length of the string
+//   var length = string.length;
+//   // return the length variable 
+//   return length;
+  
+// }
+
+// Let us consider the case of wanting to get the last character in a string
+// Were we to attempt to use an actual number index, we will be unsuccessful for the general case
+// We can do so using the .length property and the fact that a string's index start at 0:
+
+var lastCharacter = "JavaScript"["JavaScript".length -1]
+console.log('last character', lastCharacter);
+
+// We are going to complete a function that takes in one parameter, a string, and returns the input string's last character. Your function should determine the length of the input string minus 1, and assign it to a lastIndex variable. Your function should also create a lastCharacter variable and assign it to an expression which uses lastIndex to access the last character in the string, and return the lastCharacter variable. 
+
+// var resultLastCharacter1 = getLastCharacter('Rich Rollin');
+// console.log('should log n: ', resultLastCharacter1);
+
+var subString = "JavaScript".substring(3, 8);
+console.log('portion of the word up to three but not past 8: ', subString);
