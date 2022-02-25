@@ -103,3 +103,14 @@ function removeAnElementInGeneral(array, index) {
   // return the array
   return array;
 }
+
+// declaring a empty array 
+// var crips = [];
+
+var crips = [60, 'nhood', 'blocc'];
+console.log(crips);
+
+
+// removing the last element of a array
+var lastElement = crips.pop();
+console.log(lastElement);
