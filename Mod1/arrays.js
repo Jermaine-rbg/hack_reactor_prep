@@ -66,3 +66,10 @@ function getLastElement(array) {
   // return the lastElement variable
   return lastElement;
 }
+
+function applyPush(array, element) {
+  // add the element to the back of the array
+  array.push(element);
+  // return the array
+  return array;
+}
