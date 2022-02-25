@@ -32,3 +32,11 @@ function createAndReturnAnArray(){
 
 var resultArray = createAndReturnAnArray();
 console.log('resultArray:', resultArray);
+
+function accessAnElement(array, index) {
+  // create a result variable,
+  // assign it to an expression that accesses the element within array at the inde
+  var result = array[index];
+  // return the result variable
+  return result;
+}
