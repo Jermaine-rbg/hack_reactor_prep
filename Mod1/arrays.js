@@ -47,3 +47,22 @@ function reassignAnElement(array, index, newValue) {
   // return the input array
   return array;
 }
+
+function getArrayLength(array) {
+  // create a length variable
+  // assign it to the length of the array
+  var length = array.length;
+  // return the length variable
+  return length;
+}
+
+function getLastElement(array) {
+  // create a lastIndex variable
+  // assign it to the last index in the array
+  var lastIndex = array.length -1;
+  // create a lastElement variable
+  var lastElement = array[lastIndex];
+  // assign it to the last element in the string (make use of lastIndex)
+  // return the lastElement variable
+  return lastElement;
+}
