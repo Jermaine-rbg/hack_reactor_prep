@@ -40,3 +40,10 @@ function accessAnElement(array, index) {
   // return the result variable
   return result;
 }
+
+function reassignAnElement(array, index, newValue) {
+  // reassign the value in the array, located at the index, to the newValue parameter
+  array[index] = newValue;
+  // return the input array
+  return array;
+}
