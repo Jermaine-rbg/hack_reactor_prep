@@ -73,3 +73,18 @@ function applyPush(array, element) {
   // return the array
   return array;
 }
+
+function applyPop(array) {
+  // create a popped variable
+  var popped = array.pop();
+  // assign it to an expression removing the last element from the array
+  // return the popped variable
+  return popped;
+}
+
+function applyUnshift(array, element) {
+  // add the element to the front of the array
+  array.unshift(element);
+  // return the array
+  return array;
+}
