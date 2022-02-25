@@ -88,3 +88,18 @@ function applyUnshift(array, element) {
   // return the array
   return array;
 }
+
+function addAnElementInGeneral(array, index, element) {
+  // add the element to the array at the index given
+  // (be sure not to replace any existing elements)
+  array.splice(index, 0, element);
+  // return the array
+  return array;
+}
+
+function removeAnElementInGeneral(array, index) {
+  // remove the element from the array at the index given
+  array.splice(index ,1);
+  // return the array
+  return array;
+}
