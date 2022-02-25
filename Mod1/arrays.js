@@ -111,6 +111,28 @@ var crips = [60, 'nhood', 'blocc'];
 console.log(crips);
 
 
-// removing the last element of a array
+// removing the last element of a array pop is last 
 var lastElement = crips.pop();
 console.log(lastElement);
+
+// adding to the end of a array is using the push method
+crips.push = ('curve blocc');
+console.log(crips);
+
+// removing the fisrt element of a array is the shift method
+crips.shift = ('nasty boy');
+console.log(crips);
+
+// to add one or more elements to the beginning of a aary is the .unshift method
+crips.unshift = ('rollin six owe', 'dead end blocc');
+console.log(crips);
+
+
+// the splice method is used when removing and inserting a element into a array by using the index number and element
+crips.splice = (1, 'blue ');
+console.log(crips);
+
+// to remove elements from a array by index
+crips.splice = (1);
+console.log(crips);
+
