@@ -147,3 +147,11 @@ function applySlice(array, start, end) {
 let crips = ['rollin six owe', 'nhood', 'dead end blocc'];
 crips.shift = ('rollin six owe');
 console.log(crips);
+
+function applyConcat(array1, array2) {
+  // create a concattedArray variable
+  // assign it to the contents of both array1 and array2
+  var concattedArray = array1.concat(array2);
+  // return the concattedArray variable
+  return concattedArray;
+}
