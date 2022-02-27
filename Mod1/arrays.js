@@ -155,3 +155,11 @@ function applyConcat(array1, array2) {
   // return the concattedArray variable
   return concattedArray;
 }
+
+function applyJoin(arrayOfStrings, string) {
+  // create a joinedString variable
+  // assign it to a string which is all of the strings in the input array separated by the input string
+  var joinedString = arrayOfStrings.join(string);
+  // return the joinedString variable
+  return joinedString;
+}
