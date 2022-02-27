@@ -163,3 +163,11 @@ function applyJoin(arrayOfStrings, string) {
   // return the joinedString variable
   return joinedString;
 }
+
+function applySplit(stringToBeSplit, splitter) {
+  // create a splitString variable
+  // assign it to an array which contains the elements in the stringToBeSplit separated by the splitter
+  var splitString = stringToBeSplit.split(splitter);
+  // return the splitString variable
+  return splitString;
+}
