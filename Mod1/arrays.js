@@ -171,3 +171,11 @@ function applySplit(stringToBeSplit, splitter) {
   // return the splitString variable
   return splitString;
 }
+
+function applyIndexOfToArray(array, element) {
+  // create an index variable
+  // assign it to the index inside of array where element can be found
+  var index = array.indexOf(element);
+  // return the index variable
+  return index;
+}
