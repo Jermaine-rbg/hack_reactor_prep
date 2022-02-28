@@ -179,3 +179,4 @@ function applyIndexOfToArray(array, element) {
   // return the index variable
   return index;
 }
+
