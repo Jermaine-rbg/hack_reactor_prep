@@ -187,3 +187,10 @@ function accessAProperty(object, key) {
   // return the result variable
   return result;
 }
+
+function removeAProperty(object, key) {
+  // remove the property at the given key from the object
+  delete object[key]; 
+  // return the object
+  return object;
+}
