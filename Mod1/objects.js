@@ -179,3 +179,11 @@ function createObject() {
   // return the result variable
   return result;
 }
+
+function accessAProperty(object, key) {
+  // create a result variable,
+  // assign it to an expression that accesses the property in the object located at the key
+  var result = object[key];
+  // return the result variable
+  return result;
+}
