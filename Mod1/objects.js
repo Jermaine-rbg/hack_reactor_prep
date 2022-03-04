@@ -216,3 +216,27 @@ function isAnObject(input) {
   // return the isObjectAndNotAnArray variable
   return isObjectAndNotAnArray;
 }
+
+function getAllKeys(obj) {
+  // create a keys variable
+  var keys = Object.keys(obj);
+  // assign it to an expression which will generate an array of all of the keys in obj
+  // return to the keys variable
+  return keys;
+}
+
+function getAllValues(obj) {
+  // create a values variable
+  var values = Object.values(obj);
+  // assign it to an expression which will generate an array of all of the values in obj
+  // return to the values variable
+  return values;
+}
+
+function applyUnshiftAgain(arrayOfArrays, index, element) {
+  // add the element to the front of the inner array within the array of arrays located at the index
+  var innerArray = arrayOfArrays[index];
+  innerArray.unshift(element);
+  // return the array of arrays
+  return arrayOfArrays;
+}
