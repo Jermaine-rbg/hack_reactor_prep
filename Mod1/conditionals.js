@@ -52,3 +52,11 @@ function isItUndefined(param) {
       return "Input is defined";
     }
   }
+
+  function fewerApples(apples, oranges) {
+    // if there are fewer apples than oranges
+    if (apples < oranges){
+      // return 'There are fewer apples than oranges'
+      return "There are fewer apples than oranges";
+    }
+  }
