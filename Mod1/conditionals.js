@@ -44,3 +44,11 @@ var password = 'password123';
 if (password.length < 15 && password.length > 4) {
   console.log('password is of appropriate length');
 }
+
+function isItUndefined(param) {
+    // if param is defined (or not undefined)
+    if (param !== undefined) {
+      // return 'Input is defined'
+      return "Input is defined";
+    }
+  }
