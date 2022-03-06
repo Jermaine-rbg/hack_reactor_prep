@@ -12,3 +12,35 @@ var rollinSixOwe = true;
 if (rollinSixOwe === true) {
   console.log("you cripping");
 }
+
+// if statement with undefined
+
+var declared;
+
+if (declared === undefined) {
+  console.log('declared is undefined');
+}
+
+// if statement with numbers
+
+// var nhood = 60;
+// var harlem = 30;
+// > greater than
+// if (nhood > harlem) {
+//console.log('This crip gang the biggest');
+// }
+
+var nhood = 60;
+var harlem = 30;
+// > greater than
+if (nhood > harlem) {
+  console.log('This crip gang the smallest');
+}
+
+// if statement with a string
+
+var password = 'password123';
+// if password is less than 15 and greater than 4
+if (password.length < 15 && password.length > 4) {
+  console.log('password is of appropriate length');
+}
