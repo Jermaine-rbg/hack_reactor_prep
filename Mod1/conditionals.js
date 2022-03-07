@@ -101,3 +101,23 @@ if (creedIsThere) {
 //   that the expression above evaluates to false*/
 
 // }
+
+// give declared a falsy value to see 'else' condition
+var declared = 'something';
+
+if (declared) {
+  console.log('declared has a truthy value');
+} else {
+  console.log('declared has a falsy value');
+}
+
+// change values of dogs/cats to see 'else' condition
+var dogs = 9;
+var cats = 8;
+
+if (dogs > 8 && cats < 9) {
+  console.log('number of cats and dogs is acceptable');
+} else {
+  console.log('number of cats or dogs is not acceptable');
+}
+
