@@ -130,3 +130,74 @@ if (password.length > 8) {
 } else {
   console.log('Please enter a password of at least 9 characters');
 }
+
+var ingredientsList = ['flour', 'sugar', 'eggs'];
+// change to ingredient not in list to see 'else' condition
+var ingredientInQuestion = 'sugar'
+
+if (ingredientsList.indexOf(ingredientInQuestion) > -1 ) {
+  console.log(ingredientInQuestion + ' is on the list');
+} else {
+  console.log(ingredientInQuestion + ' is not on the list');
+}
+
+// change the values to see 'else' condition
+var fruitTotals = {bananas: 4, strawberries: 12};
+
+if (fruitTotals.bananas > 3 && fruitTotals.strawberries > 10) {
+  console.log('We have enough fruit, with ' + fruitTotals.bananas + ' bananas, and ' + fruitTotals.strawberries + ' strawberries');
+} else {
+  console.log('We do not have enough of both fruits');
+}
+
+var result1 = isItTruthy('anything');
+console.log('should log "Input is truthy":', result1);
+
+var result2 = isItTruthy();
+console.log('should log "Input is falsy":', result2);
+
+var result3 = isItTruthy("");
+console.log('should log "Input is falsy":', result3);
+
+var result4 = isItTruthy(false);
+console.log('should log "Input is falsy":', result4);
+
+// We are going to complete a function that takes in one parameter, determines if that parameter is truthy or falsy, and returns a specific string for each case. Your function should use an if else statement to determine if the input parameter is truthy, and if it is, should return the string 'Input is truthy', or, if the input parameter is falsy, should return the string 'Input is falsy'. 
+
+function isItTruthy(param) {
+  // if param is truthy
+  if (param){
+    // return 'Input is truthy'
+    return 'Input is truthy';
+  } else {
+  // otherwise
+    // return 'Input is falsy'
+    return 'Input is falsy';
+  }
+}
+
+
+function balancePets(dogs, cats) {
+  // if there are more than 8 dogs and fewer than 9 cats
+  if (dogs > 8 && cats < 9){
+    // return 'number of cats and dogs is acceptable'
+    return 'number of cats and dogs is acceptable'
+  } else {
+  // otherwise
+    // return 'number of cats or dogs is not acceptable'
+    return 'number of cats or dogs is not acceptable'
+  }
+}
+
+function passwordLongEnough(password) {
+  // if password length is greater than 8
+  if (password.length > 8) {
+    // return 'Password is long enough'
+    return 'Password is long enough'
+  }
+  // otherwise
+  else {
+    // return 'Please enter a password of at least 9 characters'
+    return 'Please enter a password of at least 9 characters'
+  }
+}
