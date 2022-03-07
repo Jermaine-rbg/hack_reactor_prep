@@ -201,3 +201,17 @@ function passwordLongEnough(password) {
     return 'Please enter a password of at least 9 characters'
   }
 }
+
+function findIngredient(ingredientList, ingredientToSearchFor) {
+  // if ingredientToSearchFor is present within ingredientList
+  if (ingredientList.indexOf(ingredientToSearchFor) > -1 ) {
+    // return '{ingredientToSearchFor} is on the list'
+    return ingredientToSearchFor + ' is on the list';
+  }
+  // otherwise
+  else {
+    // return '{ingredientToSearchFor} is not on the list'
+    return ingredientToSearchFor + ' is not on the list';
+  }
+    
+}
