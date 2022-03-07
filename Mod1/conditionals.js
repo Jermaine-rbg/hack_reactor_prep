@@ -88,3 +88,16 @@ if (creedIsThere) {
 } else {
   console.log("I will stay home");
 }
+
+
+// if (/*some expression which evaluates to true or false*/) {
+
+//   /*some action to be taken in the event
+//   that the expression above evaluates to true*/
+
+// } else {
+
+//   /*some action to be taken in the event
+//   that the expression above evaluates to false*/
+
+// }
