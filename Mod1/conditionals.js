@@ -60,3 +60,31 @@ function isItUndefined(param) {
       return "There are fewer apples than oranges";
     }
   }
+
+  function validLengthPassword(password) {
+    // if password length is greater than 4 and less than 15
+    if (password.length > 4 && password.length < 15){
+      // return 'Password length is valid'
+      return "Password length is valid";
+    }
+  }
+
+  function generateReportSummary(reportTotals, teamName) {
+    var teamTotal = reportTotals[teamName];
+  // if teamName's report total is greater than 5
+  if (teamTotal > 5) {
+    // return '{teamName} has surpassed goal with {number_of_reports_for_team} reports'
+    return teamName + ' has surpassed goal with ' + teamTotal + ' reports';
+  }
+}
+
+// A conditional that allows your program to do something, if some condition is true, and do something else, if that same condition is false
+
+// change to false to see 'else' option
+var creedIsThere = true;
+
+if (creedIsThere) {
+  console.log("I will go");
+} else {
+  console.log("I will stay home");
+}
