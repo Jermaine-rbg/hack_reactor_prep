@@ -249,3 +249,28 @@ if (dennysIsOpen) {
 //   and the second expression above evaluates to false*/
 
 // }
+
+// change to 'paper' or 'scissors' to see other choices
+var choice = 'rock';
+
+if (choice === 'rock') {
+  console.log('Player 1 chose ' + choice);
+} else if (choice === 'paper') {
+  console.log('Player 1 chose ' + choice);
+} else if (choice === 'scissors') {
+  console.log('Player 1 chose ' + choice);
+} else {
+  console.log('Player 1 has chosen poorly!');
+}
+
+var shirtWidth = 25;
+
+if (shirtWidth >= 20 && shirtWidth < 30) {
+  console.log('You should select a size S');
+} else if (shirtWidth >= 30 && shirtWidth < 40) {
+  console.log('You should select a size M');
+} else if (shirtWidth >= 40 && shirtWidth < 50) {
+  console.log('You should select a size L');
+} else {
+  console.log('You should select a different shirt');
+}
