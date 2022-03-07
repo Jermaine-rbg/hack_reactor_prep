@@ -121,3 +121,12 @@ if (dogs > 8 && cats < 9) {
   console.log('number of cats or dogs is not acceptable');
 }
 
+
+// change to a shorter password to see 'else' condition
+var password = 'pa$$wordIsLongEnough';
+
+if (password.length > 8) {
+  console.log('Password is long enough');
+} else {
+  console.log('Please enter a password of at least 9 characters');
+}
