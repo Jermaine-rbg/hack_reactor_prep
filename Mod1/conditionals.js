@@ -230,3 +230,22 @@ if (dennysIsOpen) {
 } else {
   console.log('We will make pancakes at home');
 }
+
+// if (/*some expression which evaluates to true or false*/) {
+
+//   /*some action to be taken in the event
+//   that the expression above evaluates to true*/
+
+// } else if (/*some other expression which evaluates to true or false*/) {
+
+//   /*some action to be taken in the event
+//   that the first expressions evaluates to false
+//   and the second expression above evaluates to true*/
+
+// } else {
+
+//   /*some action to be taken in the event
+//   that the first expressions evaluates to false
+//   and the second expression above evaluates to false*/
+
+// }
