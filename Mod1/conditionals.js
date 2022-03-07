@@ -215,3 +215,18 @@ function findIngredient(ingredientList, ingredientToSearchFor) {
   }
     
 }
+
+// A conditional that allows your program to do something, if some condition(1) is true, and do something else, if that same condition(1) is false and another condition(2) is true, and lastly, to do a third action if both condition(1) and condition(2) are both false
+
+// change to false to see 'else if' option
+var dennysIsOpen = true;
+// change both to false to see 'else' option
+var iHopIsOpen = true;
+
+if (dennysIsOpen) {
+  console.log('We will dine at Denny\'s');
+} else if (iHopIsOpen) {
+  console.log('We will dine at IHop');
+} else {
+  console.log('We will make pancakes at home');
+}
