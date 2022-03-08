@@ -231,6 +231,21 @@ if (dennysIsOpen) {
   console.log('We will make pancakes at home');
 }
 
+function measureRequiredFruit(fruitTotals) {
+  var totalBananas = fruitTotals.bananas;
+  var totalStrawberries = fruitTotals.strawberries;
+// if there are more than 3 bananas and more than 10 strawberries
+if (totalBananas > 3 && totalStrawberries > 10) {
+  // return 'We have enough fruit, with {totalBananas} bananas, and {totalStrawberries} strawberries'
+  return 'We have enough fruit, with ' + totalBananas + ' bananas, and ' + totalStrawberries + ' strawberries';
+  
+} else {
+// otherwise
+return 'We do not have enough of both fruits';
+  // return 'We do not have enough of both fruits'
+}
+}
+
 // if (/*some expression which evaluates to true or false*/) {
 
 //   /*some action to be taken in the event
