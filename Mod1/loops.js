@@ -37,6 +37,14 @@ while (startOfRange <= endOfRange) {
 }
 
 
+// We are going to complete a function that takes two parameters, both will be integers (start, end), and logs to the console, all of the integers starting with start, and ending with end. Your function should use a while loop to log each integer from start, up to and including end, then return nothing. 
 
-
-
+function loopASequence(start, end) {
+    // create a loop which runs if start is less than or equal to end
+    while (start <= end) {
+      // log current value of start to console
+      console.log(start);
+      // increment value of start
+      start++;
+    }
+  }
