@@ -48,3 +48,17 @@ function loopASequence(start, end) {
       start++;
     }
   }
+
+  // We are going to complete a function that takes one parameter, an array of elements, and logs all of its elements (one at a time) to the console. Your function should use a while loop to log each element from the beginning to the end of the array, then return nothing.
+
+  function loopAnArray(array) {
+    // create an index variable
+    var index = 0;
+    // create a loop which iterates over the input array
+    while (index < array.length) {
+      // log current array element to the console
+      console.log(array);
+      // increment value of index variable
+      array++;
+    }
+  }
