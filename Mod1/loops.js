@@ -62,3 +62,17 @@ function loopASequence(start, end) {
       array++;
     }
   }
+
+  // We are going to complete a function that takes one parameter, a string of characters, and logs all of its characters (one at a time) to the console. Your function should use a while loop to log each character from the beginning to the end of the string, then return nothing.
+
+  function loopAString(string) {
+    // create an index variable
+    var i = 0;
+    // create a loop which iterates over the input string
+    while (i < string.length) {
+      // log current string character to the console
+      console.log(string[i]);
+      // increment value of index variable
+      i++;
+    }
+  }
