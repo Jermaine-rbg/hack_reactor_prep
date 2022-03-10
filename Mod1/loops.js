@@ -76,3 +76,23 @@ function loopASequence(start, end) {
       i++;
     }
   }
+
+ // We are going to complete a function that takes two parameters, both will be integers (start, end), and logs to the console, all of the integers starting with start, and ending with end. Your function should use a for loop to log each integer from start, up to and including end, then return nothing
+ 
+ function loopASequenceAgain(start, end) {
+  // create a loop which loops from start to end
+  for (var x = start; x <= end; x++) {
+    // log current value to console
+    console.log(x);
+  }
+    
+
+}
+
+function loopAnArrayAgain(array) {
+  // create a loop which iterates over the input array
+  for (var i = 0; i < array.length; i++) {
+    // log current array element to the console
+    console.log(array[i]);
+  }
+}
