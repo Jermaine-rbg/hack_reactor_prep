@@ -127,3 +127,43 @@ function loopStartingAtIndex(array, index) {
     console.log(array[i]);
   }
 }
+
+function loopInReverse(array) {
+  // create a loop which iterates from back to front of the input array
+  for (var i = array.length -1; i > -1; i--) {
+    // log current array element to the console
+    console.log(array[i]);
+  }
+}
+
+// We are going to complete a function that takes one parameter, an array of elements, and logs every element, beginning at the back of the input array and ending at the front of the input array, to the console. Your function should use a loop to log every element from the back of the array, up to the front of the array, then return nothing. 
+
+// We are going to complete a function that takes two parameters, an array of elements and an index, and logs every element, except for the element at the input index, to the console. Your function should use a loop to log every element except one at the inputted index, and should also use a continue statement (must use a semi-colon after continue for tests to pass) to skip over the value at the inputted index, then return nothing. Your code should NOT use else.
+
+function useContinue(array, index) {
+  // create a loop which iterates over the input array
+ for (var i = 0; i < array.length; i++) {
+    // if current index is equal to input index
+    if (i === index){
+        continue;
+    }
+     // use described statement to skip to next iteration of loop (must include semi-colon!)
+    // log current array element to the console
+    console.log(array[i]);
+ }
+}
+
+// We are going to complete a function that takes two parameters, an array of elements and an index, and logs every element, except those whose index is greater than the input index. Your function should use a loop to log every element up to and including the element located at the input index, and should also use a break statement (must use a semi-colon after break for tests to pass) to skip over the values with indexes greater than that of the input index, then return nothing. Your code should NOT use else.
+
+function useBreak(array, index) {
+  // create a loop which iterates over the input array
+  for (var i = 0; i < array.length; i++) {
+    // if current index is greater than input index
+    if (i > index) {
+      // use described statement to stop the loop completely (must include semi-colon!
+      break;
+    }
+    // log current array element to the console
+    console.log(array[i]);
+  }
+}
