@@ -189,3 +189,17 @@ function loopOverValues(object) {
     console.log(currentValue);
   }
 }
+
+// We are going to complete a function that takes one parameter, an array of arrays, and logs all of its elements (log each element in first inner array, start to end, then second inner array, and so on...) to the console. Your function should use a nested for loop to log each element from all inner arrays, then return nothing.
+
+function loopAnArrayOfArrays(arrayOfArrays) {
+  // create a loop which iterates over the input array
+  for (var i = 0; i < arrayOfArrays.length; i++) {
+   for (var j = 0; j < arrayOfArrays[i].length; j++) {
+  
+    // create an inner loop which iterates over current inner array
+      // log current element to the console
+      console.log(arrayOfArrays[i][j])
+   }
+  }
+}
