@@ -167,3 +167,25 @@ function useBreak(array, index) {
     console.log(array[i]);
   }
 }
+
+// A for-in statement allows us to loop over the properties in an object
+// We are going to complete a function that takes one parameter, an object of properties, and logs all of its keys (one at a time) to the console. Your function should use a for-in loop to log each key in the object, then return nothing. DO NOT USE Object.keys() in your solution. 
+
+function loopOverKeys(object) {
+  // create a loop which iterates over the input object
+  for (var currentKey in object){
+    // log current key to the console
+    console.log(currentKey);
+  }
+}
+
+// We are going to complete a function that takes one parameter, an object of properties, and logs all of its values (one at a time) to the console. Your function should use a for-in loop to log each value in the object, then return nothing. DO NOT USE Object.values() in your solution.
+
+function loopOverValues(object) {
+  // create a loop which iterates over the input object
+  for (var key in object) {
+      var currentValue = object[key];
+    // log current value to the console
+    console.log(currentValue);
+  }
+}
