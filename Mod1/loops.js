@@ -214,3 +214,15 @@ function loopAnObjectOfObjects(nestedObject) {
       }
   }
 }
+
+function loopAnArrayOfObjects(arrayOfObjects) {
+  // create a loop which iterates over the input array
+  for (var i =0; i < arrayOfObjects.length; i++){
+    var innerObj = arrayOfObjects[i]
+    // create an inner loop which iterates over current inner object
+    for (var key in innerObj){
+      // log current value to the console
+      console.log(innerObj[key]);
+    }
+  }
+}
