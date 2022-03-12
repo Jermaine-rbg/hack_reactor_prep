@@ -203,3 +203,14 @@ function loopAnArrayOfArrays(arrayOfArrays) {
    }
   }
 }
+
+function loopAnObjectOfObjects(nestedObject) {
+  // create a loop which iterates over the input object
+  for (var key in nestedObject){
+      for (var innerKey in nestedObject[key]){
+    // create an inner loop which iterates over current inner object
+      // log current value to the console
+      console.log(nestedObject[key][innerKey]);
+      }
+  }
+}
