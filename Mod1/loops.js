@@ -215,6 +215,8 @@ function loopAnObjectOfObjects(nestedObject) {
   }
 }
 
+// We are going to complete a function that takes one parameter, a array of objects, and logs all of its values (log each value in first inner object, one at a time, then second inner object, and so on...) to the console. Your function should use a for-in loop nested inside of a for loop to log each value from all inner objects, then return nothing.
+
 function loopAnArrayOfObjects(arrayOfObjects) {
   // create a loop which iterates over the input array
   for (var i =0; i < arrayOfObjects.length; i++){
@@ -223,6 +225,33 @@ function loopAnArrayOfObjects(arrayOfObjects) {
     for (var key in innerObj){
       // log current value to the console
       console.log(innerObj[key]);
+    }
+  }
+}
+
+// We are going to complete a function that takes one parameter, a object of arrays, and logs all of its values (log each value in first inner array, one at a time, then second inner array, and so on...) to the console. Your function should use a for loop nested inside of a for-in loop to log each value from all inner arrays, then return nothing. 
+
+function loopAnObjectOfArrays(objectOfArrays) {
+  // create a loop which iterates over the input object
+  for (var key in objectOfArrays){
+    // create an inner loop which iterates over current inner array
+    var innerArr = objectOfArrays[key];
+    for (var i =0; i < innerArr.length; i++){
+      // log current value to the console
+      console.log(innerArr[i]);
+    }
+  }
+}
+
+// We are going to complete a function that takes two parameters, both arrays, and logs all possible combinations of elements separated by a space (see example for details...) to the console. Your function should use a nested for loop to log all combinations of the two arrays, then return nothing.
+
+function generateCombinations(array1, array2) {
+  // create a loop which iterates over the first array
+  for (var i = 0; i < array1.length; i++) {
+    for (var j = 0; j < array2.length; j++){
+    // create an inner loop which iterates over the second array
+      // log current element of first array and current element of second array to the console with space in between
+      console.log(array1[i], array2[j]);
     }
   }
 }
