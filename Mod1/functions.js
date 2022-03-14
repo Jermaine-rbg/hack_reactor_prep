@@ -11,6 +11,6 @@ function nameOfFunction(/*list of parameters*/) {
     /*statements that define the function*/
   }
   
-  //calling the function (test)
+  //calling the function test
   var result = nameOfFunction(/*list of arguments*/);
   console.log(result);
