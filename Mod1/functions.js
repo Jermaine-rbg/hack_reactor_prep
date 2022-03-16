@@ -19,7 +19,7 @@ function nameOfFunction(/*list of parameters*/) {
 
     var oddNumbers = [];
 
-    for (var i = 0; numbers.length; i++){
+    for (var i = 0; i < numbers.length; i++){
       if (numbers[i] % 2 === 1) {
         oddNumbers.push(numbers[i])
       }
