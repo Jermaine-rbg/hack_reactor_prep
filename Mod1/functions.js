@@ -14,3 +14,16 @@ function nameOfFunction(/*list of parameters*/) {
   //calling the function test
   var result = nameOfFunction(/*list of arguments*/);
   console.log(result);
+
+  function FilterOddElements(numbers) {
+
+    var oddNumbers = [];
+
+    for (var i = 0; numbers.length; i++){
+      if (numbers[i] % 2 === 1) {
+        oddNumbers.push(numbers[i])
+      }
+    }
+    
+    return oddNumbers;
+  }
