@@ -101,10 +101,10 @@ function interpolateAString(activity, dayOfTheWeek) {
 // console.log('should log "m":', resultLastCharacter2);
 
 // function getStringLength(string) {
-//   // create a length variable
-//   // assign it to the length of the string
+// create a length variable
+// assign it to the length of the string
 //   var length = string.length;
-//   // return the length variable
+// return the length variable
 //   return length;
 // }
 
