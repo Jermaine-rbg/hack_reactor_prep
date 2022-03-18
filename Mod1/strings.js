@@ -154,10 +154,10 @@ function interpolateAString(activity, dayOfTheWeek) {
 // We are going to complete a function that takes in one parameter, a string, and returns the length of that string. Your function should create a variable and assign it to the length of the input string using the .length property, and return that variable.
 
 // function getStringLength(string){
-//   // create a length variable
-//   // assign it to the length of the string
+// create a length variable
+// assign it to the length of the string
 //   var length = string.length;
-//   // return the length variable 
+// return the length variable 
 //   return length;
   
 // }
