@@ -149,13 +149,14 @@ console.log('affirmative:', affirmative);
 var negative = determineIsAnArray({a: 1});
 console.log('negative:', negative);
 
-var stringsObj ={
-  name:"jermaine",
-  carreer: "software enginneer",
-  jobNow: "slave"
+let stringsObj ={
+  name:"Jermaine Bailey",
+  carreer: "Front-End Software Enginneer",
+  feeling: "Motivated",
+  location: "Atlanta"
 }
 
-console.log(stringsObj["jobNow"]);
+console.log(stringsObj["feeling"]);
 // the brackets pull the key value from the function
 
 function accessACharacter(string, index){
