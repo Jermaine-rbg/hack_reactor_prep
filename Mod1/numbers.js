@@ -293,4 +293,10 @@ function decrement(base, decrementer) {
   return base;
 }
 
+function applyTimesEquals(base, multiplier) {
+  // reassign base to result of multiplying base by multiplier
+  base *= multiplier;
+  // return base
+  return base;
+}
 
