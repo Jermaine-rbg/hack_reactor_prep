@@ -275,4 +275,22 @@ var randomBetweenMinAndMax = Math.random() * (max - min) + min;
 console.log("randomBetweenMinAndMax:", randomBetweenMinAndMax);
 
 
-// break 
+// We are going to complete a function that takes in two number parameters (base, incrementer), and returns the result of incrementing the base by the incrementer. Your function should reassign base to the result of incrementing base by incrementer using the += operator, then return base.
+function increment(base, incrementer) {
+  // reassign base to result of incrementing base by incrementer
+  base += incrementer;
+  // return base
+  return base;
+}
+
+
+
+// We are going to complete a function that takes in two number parameters (base, decrementer), and returns the result of decrementing the base by the decrementer. Your function should reassign base to the result of decrementing base by decrementer using the -= operator, then return base.
+function decrement(base, decrementer) {
+  // reassign base to result of decrementing base by decrementer
+  base -= decrementer
+  // return base
+  return base;
+}
+
+
