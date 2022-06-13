@@ -300,3 +300,9 @@ function applyTimesEquals(base, multiplier) {
   return base;
 }
 
+function applyDivideEquals(base, divider) {
+  // reassign base to result of dividing base by divider
+  base /= divider;
+  // return base
+  return base;
+}
