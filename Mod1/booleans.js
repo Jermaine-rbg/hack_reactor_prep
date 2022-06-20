@@ -165,3 +165,10 @@ function areEqual(param_1, param_2) {
   // return the result variable
   return result;
 }
+function areNotEqual(param_1, param_2) {
+  // create a result variable
+  var result = param_1 !== param_2;
+  // assign it to a comparison between param_1 and param_2 using "not equal to" operator
+  // return the result variable
+  return result;
+}
