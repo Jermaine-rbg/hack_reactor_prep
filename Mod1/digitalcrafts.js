@@ -18,3 +18,10 @@ console.log("Rolling", nhood, "Crips")
 
 const theAnswer = 30 + 30;
 console.log(`The answer is ${theAnswer} Isn't that great`);
+
+const friendInfo = {
+     "name": "Jermaine Bailey",
+     "cell": "3370967",
+     "rollinsixowe": "Crip"
+};
+
