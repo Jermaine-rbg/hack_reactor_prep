@@ -20,8 +20,12 @@ const theAnswer = 30 + 30;
 console.log(`The answer is ${theAnswer} Isn't that great`);
 
 const friendInfo = {
-     "name": "Jermaine Bailey",
-     "cell": "3370967",
-     "rollinsixowe": "Crip"
+     name: "Jermaine Bailey",
+     cell: "3370967",
+     rollinsixowe: "Crip",
+     crip: "60"
 };
 
+let hood = ["rolling six owe", "rollin four owe", "dead end blocc"];
+let naybor = hood;
+console.log(naybor);
