@@ -28,4 +28,8 @@ const friendInfo = {
 
 let hood = ["rolling six owe", "rollin four owe", "dead end blocc"];
 let naybor = hood;
-console.log(naybor);
+let theLastItem = hood.pop();
+
+console.log(theLastItem);
+// You use the index to refer to a specific item in the Array:
+// console.log(hood[2]);
