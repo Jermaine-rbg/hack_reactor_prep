@@ -28,8 +28,16 @@ const friendInfo = {
 
 let hood = ["rolling six owe", "rollin four owe", "dead end blocc"];
 let naybor = hood;
-let theLastItem = hood.pop();
+// To remove an item from the end of an Array, use its .pop() method:
+// .pop() accepts no arguments, and it returns the last item in the Array
+// let theLastItem = hood.pop();
 
-console.log(theLastItem);
+// You may want to combine the elements in an Array into a String.
+
+// To do that, call the Array's.join() method, passing it a String it will place between each item:
+// Let's pass the esacpe sequence for a line break
+const nayborString = hood.join('!\n');
+
+console.log(nayborString);
 // You use the index to refer to a specific item in the Array:
 // console.log(hood[2]);

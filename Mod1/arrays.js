@@ -180,3 +180,12 @@ function applyIndexOfToArray(array, element) {
   return index;
 }
 
+// We are going to complete a function that takes in two parameters, one value is an object, possibly containing an array, as well as a key in that object, and returns whether the value located at the key is an array or not. Your function should create a variable, assign it to an expression that tells whether the input object's value located at the input key is an array or not, using the Array.isArray() method, then return that created variable.
+function isAnArrayAgain(inputObj, key) {
+  // create a result variable
+  var innerPossiableArray = inputObj[key];
+  var result = Array.isArray(innerPossiableArray);
+  // assign it to a call to the applicable method
+  // return the result variable
+  return result;
+}
