@@ -13,3 +13,7 @@ var declared;
 if (declared === undefined){
     console.log('declared');
 }
+
+var declared;
+if (declared === undefined)
+console.log('declared');

@@ -172,3 +172,8 @@ function areNotEqual(param_1, param_2) {
   // return the result variable
   return result;
 }
+function returnTrue() {
+  return true;
+
+  }
+console.log('returnTrue:');
