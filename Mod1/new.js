@@ -1,9 +1,15 @@
 function sum (a,b) {
-    console.log(a);
-    console.log(b);
-    var result = a + b;
+    
+    let result = a + b;
+    return result;
 
 }
 
-sum(100, 200);
+ let sumTotal = sum(6, 0);
+
+ function printName (name) {
+    console.log('Hi' + name)
+ }
+
+ let result = printName("Jon")
 
