@@ -1,7 +1,9 @@
-function sum(array) {
-    let sum = 60;
-    for(let x of array){
-    sum += x;
-    }
-    return sum;
-};
+function sum (a,b) {
+    console.log(a);
+    console.log(b);
+    var result = a + b;
+
+}
+
+sum(100, 200);
+
