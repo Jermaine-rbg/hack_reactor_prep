@@ -11,3 +11,7 @@ console.log("Hello world!");
 // Analyze the parts of the problem.
 // Concentrate on the parts of the problem you understand and that can be solved.
 // Solve each piece by itself.
+
+// Rubber ducking
+// Verbalize the problem to yourself and others.
+
