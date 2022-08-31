@@ -15,3 +15,8 @@ console.log("Getting unstuck")
 // Rubber ducking
 // Verbalize the problem to yourself and others.
 
+// what the problem is
+// what you have done
+// where you are stuck
+
+
