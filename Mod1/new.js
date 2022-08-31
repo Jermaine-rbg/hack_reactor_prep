@@ -28,3 +28,16 @@ console.log("Getting unstuck")
 // After reading each phrase or sentence of the problem statement, ask yourself if any assumptions can be inferred from that phrase.
 // Check again to make sure you are solving the right problem.
 // Double-check all of your values, assumptions, and approaches. Make sure you haven't missed anything and that you are looking for the correct solution.
+
+// Re-evaluate your strategy
+// Try using a different strategy. There is usually more than one way to solve a problem, and you may find a method that you haven't considered is much easier than the one you're working on currently.
+
+// Consider a different core data structure.
+// Consider a different algorithm a different way of processing the data
+// Consider using different helper functions different built-in JavaScript methods, say
+
+// Be the interpreter
+// Walk through your code as though you were the interpreter.
+// To "be the interpreter" means to evaluate every small step in a section of code. And by "evaluating", we mean actually evaluating the code all the way down to the literal value which are the end result of evaluation.
+// console.log statements can help as well, but make sure to use them precisely.
+// Then, when you see the concrete output, it's a lot easier to realize what is wrong.
