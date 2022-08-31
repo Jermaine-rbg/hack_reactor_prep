@@ -41,3 +41,14 @@ console.log("Getting unstuck")
 // To "be the interpreter" means to evaluate every small step in a section of code. And by "evaluating", we mean actually evaluating the code all the way down to the literal value which are the end result of evaluation.
 // console.log statements can help as well, but make sure to use them precisely.
 // Then, when you see the concrete output, it's a lot easier to realize what is wrong.
+
+
+// JavaScript Data Types
+// String	"Hello World"
+// Number	42
+// Boolean	true
+// Date	new Date(10, 21, 2015)
+// Null	null
+// Array	[1,2,3]
+// Object	{ name: "Sarah" }
+// Function	function greetUser(){}
