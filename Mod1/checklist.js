@@ -26,3 +26,16 @@
 // Use logical operators inside of if statements
 // Use nested if/else statements
 // Understand and create tests using assertion functions
+
+// Students should have the ability to work autonomously, quickly, and correctly, verbally representing their work accurately. A student should be able to:
+
+// Clearly explains their reasoning
+// Quickly understand and apply corrections and suggestions
+// Code correctly without additional prompting
+// Use time well
+// Listen well
+// Ask useful questions if necessary
+// Display confidence i.e. not crumble under the pressure
+// Make reasonable, useful decisions when faced with new content
+// Fix their own bugs
+// Display clear case-based reasoning
