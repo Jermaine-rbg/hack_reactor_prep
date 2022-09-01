@@ -15,3 +15,14 @@
 // Create an object
 // Create and use a basic for loop and a for-in loop
 // Create and use a while loop
+
+
+// Intermediate Level, the student can:
+// Use array methods correctly
+// Use string methods correctly
+// Use object methods correctly
+// Write a function that evaluates an expression as an argument
+// Offload work to a helper function
+// Use logical operators inside of if statements
+// Use nested if/else statements
+// Understand and create tests using assertion functions
