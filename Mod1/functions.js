@@ -75,3 +75,13 @@ function isTrue() {
 
 let trueResult = isTrue; // this line "calls" the function and assigns the value returned to trueResult
 console.log(trueResult); // if you run this code in the console, you can see that trueResult has been set to a value of true
+
+// next, we will declare a function that takes no parameters, does nothing, and returns false
+function isFalse() {
+  return false;
+  
+}
+
+// this line "calls" the function and assigns the value returned to falseResult 
+let falseResult = isFalse;
+console.log(falseResult);
