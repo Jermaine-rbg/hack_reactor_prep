@@ -59,11 +59,11 @@ function nameOfFunction(/*list of parameters*/) {
   let baked = lambChops();
   console.log(baked);
 
-  // undefined 
-
+// undefined 
+// first, we declare a function that takes no parameters, does nothing, and returns nothing
   function nothing() {
     
   }
 
-  let returnValue = nothing
-  console.log(returnValue);
+  let returnValue = nothing // this line "calls" the function and assigns the value returned to returnValue
+  console.log(returnValue); // if you run this code in a console, you can see that returnValue is undefined
