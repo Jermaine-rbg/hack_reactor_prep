@@ -73,5 +73,5 @@ function isTrue() {
   return true;
 }
 
-let trueResult = isTrue;
-console.log(trueResult);
+let trueResult = isTrue; // this line "calls" the function and assigns the value returned to trueResult
+console.log(trueResult); // if you run this code in the console, you can see that trueResult has been set to a value of true
