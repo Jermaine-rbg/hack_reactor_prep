@@ -144,9 +144,9 @@ console.log('totalUnitsAvailable:', totalUnitsAvailable);
 
 // We can do so using the *= operator:
 
-var result = 10;
-result *= 4;
-console.log('result:', result);
+// var result = 10;
+// result *= 4;
+// console.log('result:', result);
 
 // We can also do this with variables whose values are numbers:
 
@@ -270,7 +270,7 @@ console.log('randomBetween1And10:', randomBetween1And10);
 // We can also do this with variables whose values are numbers:
 
 var min = 90;
-var max = 100;
+// var max = 100;
 var randomBetweenMinAndMax = Math.random() * (max - min) + min;
 console.log("randomBetweenMinAndMax:", randomBetweenMinAndMax);
 
