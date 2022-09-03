@@ -27,3 +27,7 @@ function nameOfFunction(/*list of parameters*/) {
     
     return oddNumbers;
   }
+
+  function numberOne(){
+    return numberOne;
+  }
