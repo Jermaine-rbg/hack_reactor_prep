@@ -67,3 +67,11 @@ function nameOfFunction(/*list of parameters*/) {
 
   let returnValue = nothing // this line "calls" the function and assigns the value returned to returnValue
   console.log(returnValue); // if you run this code in a console, you can see that returnValue is undefined
+
+// first we will declare a function that takes no parameters, does nothing, and returns true
+function isTrue() {
+  return true;
+}
+
+let trueResult = isTrue;
+console.log(trueResult);
