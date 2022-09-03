@@ -12,8 +12,8 @@ function nameOfFunction(/*list of parameters*/) {
   }
   
   //calling the function test
-  var result = nameOfFunction(/*list of arguments*/);
-  console.log(result);
+  // var result = nameOfFunction(/*list of arguments*/);
+  // console.log(result);
 
   function FilterOddElements(numbers) {
 
@@ -31,3 +31,23 @@ function nameOfFunction(/*list of parameters*/) {
   function numberOne(){
     return numberOne;
   }
+
+  let richRollin = numberOne();
+  console.log(richRollin);
+
+  function westSide() {
+    return westSide;
+    
+  }
+
+  let sixOwe = westSide();
+  console.log(westSide);
+
+// this function has one simple operation: it returns bankHead
+  function bankHead() {
+    return bankHead;
+    
+  }
+// this part is similar to what happens when you click 'Run Tests'
+  let zoneone = bankHead();
+  console.log(zoneone); // should log bankHead to the console
