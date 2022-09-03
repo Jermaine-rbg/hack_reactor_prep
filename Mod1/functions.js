@@ -51,3 +51,19 @@ function nameOfFunction(/*list of parameters*/) {
 // this part is similar to what happens when you click 'Run Tests'
   let zoneone = bankHead();
   console.log(zoneone); // should log bankHead to the console
+
+  function lambChops(){
+    return lambChops;
+  }
+
+  let baked = lambChops();
+  console.log(baked);
+
+  // undefined 
+
+  function nothing() {
+    
+  }
+
+  let returnValue = nothing
+  console.log(returnValue);
