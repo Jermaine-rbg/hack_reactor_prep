@@ -16,3 +16,6 @@ let stringObj = {
     currentTitle: "Crips",
     futurePosition: "OG"
 }
+
+let valueOfName = stringObj.name;
+console.log('accessed using dot notation:', valueOfName);
