@@ -36,3 +36,15 @@ function returnACharacter(string, index) {
 
 let character = returnACharacter('tea', 1);
 console.log('character:', character);
+
+// Numbers 
+let count = 9;
+let whatever = 60;
+
+// Strings 
+let name = "rollin";
+let something = "rich";
+
+// Booleans 
+let streetGang = true;
+let original = false;
