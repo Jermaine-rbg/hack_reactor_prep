@@ -39,3 +39,20 @@ let user = {
 // we are defining a variable that we will pass to our function as an argument
 let resultObject = returnObject(user)
 console.log('resultObject:', resultObject);
+
+// next we will declare a function that takes in an object, and a key, and returns the value located at the inputted key
+function returnAValue(obj, key) {
+    return obj[key]
+    
+};
+
+let computer = {
+    name: 'MacBook Air',
+    version: '10.14.6',
+    processer: '2 GHz H1 chip',
+    memory_gb: 16
+};
+
+let nameOfKey = "name";
+let valueAtKey = returnAValue(computer, nameOfKey);
+console.log('valueAtKey:', valueAtKey);
