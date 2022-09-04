@@ -19,3 +19,8 @@ let stringObj = {
 
 let valueOfName = stringObj.name;
 console.log('accessed using dot notation:', valueOfName);
+
+console.log('type of true:', typeof true);
+console.log('type of 4.0:', typeof 4.0);
+console.log('type of 9', typeof 9);
+console.log('type of "a string of characters":', typeof "a string of characters");
