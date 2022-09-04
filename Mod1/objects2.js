@@ -24,3 +24,18 @@ console.log('type of true:', typeof true);
 console.log('type of 4.0:', typeof 4.0);
 console.log('type of 9', typeof 9);
 console.log('type of "a string of characters":', typeof "a string of characters");
+
+//first, we will declare a function that takes an object parameter and returns it
+function returnObject(object){
+    return object;
+}
+
+let user = {
+    id: 60,
+    name: 'Jermaine Bailey',
+    occupation: 'software engineer'
+};
+
+// we are defining a variable that we will pass to our function as an argument
+let resultObject = returnObject(user)
+console.log('resultObject:', resultObject);
