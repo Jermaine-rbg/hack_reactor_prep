@@ -144,9 +144,9 @@ console.log('totalUnitsAvailable:', totalUnitsAvailable);
 
 // We can do so using the *= operator:
 
-var result = 10;
-result *= 4;
-console.log('result:', result);
+// var result = 10;
+// result *= 4;
+// console.log('result:', result);
 
 // We can also do this with variables whose values are numbers:
 
@@ -205,11 +205,11 @@ console.log('rounded down:', Math.floor(original));
 // We can also do this with variables whose values are numbers:
 
 // var score = 89.4;
-var gradeFromATeacherWhoGetsIt = Math.ceil(score);
-var gradeFromAMonsterInTeachersClothes = Math.floor(score);
+// var gradeFromATeacherWhoGetsIt = Math.ceil(score);
+// var gradeFromAMonsterInTeachersClothes = Math.floor(score);
 
-console.log('gradeFromATeacherWhoGetsIt:', gradeFromATeacherWhoGetsIt);
-console.log('gradeFromAMonsterInTeachersClothes:', gradeFromAMonsterInTeachersClothes);
+// console.log('gradeFromATeacherWhoGetsIt:', gradeFromATeacherWhoGetsIt);
+// console.log('gradeFromAMonsterInTeachersClothes:', gradeFromAMonsterInTeachersClothes);
 
 function roundDown(num) {
     // create a result variable
@@ -236,7 +236,7 @@ function roundDown(num) {
   // We can do so using the Number.parseInt(), and the Number.parseFloat() methods:
 
   // var parsedInteger = Number.parseInt("49");
-console.log('parsedInteger:', parsedInteger);
+// console.log('parsedInteger:', parsedInteger);
 
 var parsedFloat = Number.parseFloat("29.45")
 console.log('parsedFloat:', parsedFloat);
@@ -270,7 +270,7 @@ console.log('randomBetween1And10:', randomBetween1And10);
 // We can also do this with variables whose values are numbers:
 
 var min = 90;
-var max = 100;
+// var max = 100;
 var randomBetweenMinAndMax = Math.random() * (max - min) + min;
 console.log("randomBetweenMinAndMax:", randomBetweenMinAndMax);
 
@@ -306,3 +306,4 @@ function applyDivideEquals(base, divider) {
   // return base
   return base;
 }
+
