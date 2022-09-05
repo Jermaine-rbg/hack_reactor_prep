@@ -56,3 +56,16 @@ let computer = {
 let nameOfKey = "name";
 let valueAtKey = returnAValue(computer, nameOfKey);
 console.log('valueAtKey:', valueAtKey);
+
+let sense = true;
+// to describe nonsense
+let nonsense = !sense
+console.log('nonsense:', nonsense);
+
+let notNonsense = !nonsense;
+console.log('not nonsense:', notNonsense);
+
+
+
+console.log(true || true);
+console.log(true || true);
