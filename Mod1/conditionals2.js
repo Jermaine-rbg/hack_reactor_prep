@@ -34,3 +34,12 @@ if (teamTotal > 5) {
     return teamName + ' surpass goal with ' + teamTotal + ' reports';
 }
 }
+
+// change to fasle to see else option
+
+let theLearningBegin = false;
+if (theLearningBegin){
+console.log('join a bootcamp');
+} else{
+    console.log('go self taught route');
+}
