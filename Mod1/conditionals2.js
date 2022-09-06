@@ -43,3 +43,15 @@ console.log('join a bootcamp');
 } else{
     console.log('go self taught route');
 }
+
+// if (/*some expression which evaluates to true or false*/) {
+
+//     /*some action to be taken in the event
+//     that the expression above evaluates to true*/
+  
+//   } else {
+  
+//     /*some action to be taken in the event
+//     that the expression above evaluates to false*/
+  
+//   }
