@@ -87,3 +87,12 @@ if (ingredientsList.indexOf(ingredientInQuestion) > 1){
 } else {
     console.log(ingredientInQuestion + ' is not on the list');
 }
+
+// if statement with and object
+let fruitTotals = {bananas: 4, strawberries: 12};
+
+if (fruitTotals.bananas > 3 && fruitTotals.strawberries > 10){
+    console.log('We have enough fruit, with ' + fruitTotals.bananas + ' bananas, and ' + fruitTotals.strawberries + ' strawberries');
+} else {
+    console.log('We do not have enough of both fruits');
+}
