@@ -96,3 +96,25 @@ if (fruitTotals.bananas > 3 && fruitTotals.strawberries > 10){
 } else {
     console.log('We do not have enough of both fruits');
 }
+
+if (shirtWidth >= 20 && shirtWidth < 30){
+    return 'You should select a size S'
+} else if (shirtWidth >= 30 && shirtWidth < 40){
+    return 'You should select a size M'
+} else if ( shirtWidth >= 40 && shirtWidth <50){
+    return 'You should select a size L'
+} else {
+    return 'You should select a diffrent shirt'
+}
+
+function player1Choice(choice){
+    if (choice === 'rock'){
+        return 'Player 1 chose ' + choice;
+    } else if (choice === 'paper'){
+        return 'Player 1 chose' + choice;
+    }else if (choice === 'scissors'){
+        return 'Player 1 chose' + choice;
+    }else{
+        return 'Player 1 has chosen poorly;'
+    }
+}
