@@ -118,3 +118,19 @@ function player1Choice(choice){
         return 'Player 1 has chosen poorly;'
     }
 }
+
+function verifyStock(recipeMinimums, stockTomatoes, stockOnions){
+ let excessTomatoes = stockTomatoes - recipeMinimums.tomatoes;
+ let excessOnions = stockOnions - recipeMinimums.onions;
+
+ if (excessTomatoes < 0 && excessOnions < 0){
+    return 'We need more tomatoes and more onions.'
+ } else if ('excessTomatoes < 0 && excessOnions >= 0'){
+    return 'We need more tomatoes, but have enough onions.'
+ } else if (excessTomatoes >= 0 && excessOnions < 0){
+    return 'We have enough tomatoes, but need more onions';
+ } else {
+
+ }
+
+}
