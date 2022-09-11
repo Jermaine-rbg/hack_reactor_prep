@@ -106,3 +106,15 @@ if (shirtWidth >= 20 && shirtWidth < 30){
 } else {
     return 'You should select a diffrent shirt'
 }
+
+function player1Choice(choice){
+    if (choice === 'rock'){
+        return 'Player 1 chose ' + choice;
+    } else if (choice === 'paper'){
+        return 'Player 1 chose' + choice;
+    }else if (choice === 'scissors'){
+        return 'Player 1 chose' + choice;
+    }else{
+        return 'Player 1 has chosen poorly;'
+    }
+}
