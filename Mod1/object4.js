@@ -18,9 +18,6 @@ function removeProperty(obj, key){
 
 // Write a function called "getFullName". Given a first and a last name, "getFullName" returns a single string with the given first and last names separated by a single space.
 
-function getFullName(firstName, lastName){
-
-}
 
 function getFullName(firstName, lastName){
     let result = firstName + '' + lastName;
