@@ -23,3 +23,10 @@ function getFullName(firstName, lastName){
     let result = firstName + '' + lastName;
     return result;
 }
+
+// Write a function called "getLengthOfTwoWords". Given 2 words, "getLengthOfTwoWords" returns the sum of their lengths.
+
+function getLengthOfTwoWords(word1, word2){
+    let length = word.length;
+    return length;
+}
