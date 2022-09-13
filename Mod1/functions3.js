@@ -14,3 +14,20 @@ function computeSumOfAllElements(numbers) {
      }
     return sum;
 }
+
+// input is array of numbers
+function computeAverageOfNumbers(numbers){
+    // if input is empty
+    if (numbers.length === 0){
+        return 0;
+    }
+    // create a sum variable
+    let sum = 0;
+    // iterate over all numbers using for loop
+    for (let i = 0; i < numbers.length; i++){
+        // increment sum by value
+        sum += numbers[i];
+    }
+    return sum / numbers.length;
+      
+}
