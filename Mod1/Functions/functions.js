@@ -83,5 +83,8 @@ function isFalse() {
 }
 
 // this line "calls" the function and assigns the value returned to falseResult 
+
+// this line "calls" the function and assigns the value returned to falseResult
+
 let falseResult = isFalse;
 console.log(falseResult);
