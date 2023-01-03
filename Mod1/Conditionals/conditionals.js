@@ -266,6 +266,7 @@ return 'We do not have enough of both fruits';
 // }
 
 // change to 'paper' or 'scissors' to see other choices
+// Gotta stay on top of things 
 var choice = 'rock';
 
 if (choice === 'rock') {
